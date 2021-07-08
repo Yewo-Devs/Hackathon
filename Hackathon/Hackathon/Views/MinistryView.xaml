@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Views.MinistryView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Image Source="MOE"
+                   x:Name="image"
+                   />
+            <Frame CornerRadius="30" 
+                   Margin="0,-80"
+                   HasShadow="True">
+                <StackLayout>
+                    <Label x:Name="title"
+                           FontSize="Title"
+                           FontAttributes="Bold">
+                        Ministry Of Education
+                    </Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="C"
+                           WidthRequest="60"
+                           HorizontalOptions="Start"/>
+                        <Image Source="email"
+                           WidthRequest="75"
+                           HorizontalOptions="Start"/>
+                    </StackLayout>
+                    
+                    <Label Text="Services"
+                           FontSize="40"
+                           FontAttributes="Bold"/>
+                    <ScrollView>
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand"
+                                         BackgroundColor="#f2f2f2">
+                                <Label FontSize="20" 
+                                       VerticalOptions="Center" 
+                                       Margin="10,0"
+                                       HorizontalOptions="StartAndExpand">
+                                    Service
+                                </Label>
+                                <Image Source="follow" 
+                                       WidthRequest="50"
+                                       HorizontalOptions="End"/>                                
+
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </Frame>
+        </StackLayout>        
+    </ContentPage.Content>
+</ContentPage>

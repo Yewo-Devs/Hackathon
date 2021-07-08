@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Views.Home">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F2F2F2">
+            <Frame BackgroundColor="#9ecefe"
+                   HasShadow="True">
+                <StackLayout HorizontalOptions="FillAndExpand" 
+                             Orientation="Horizontal"
+                             VerticalOptions="FillAndExpand">
+                    <Image Source="Flag" 
+                           WidthRequest="50"/>
+                    <Label Text="ONE GOV"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           HorizontalOptions="StartAndExpand"
+                           FontSize="15"/>
+                    <ImageButton Source="Spyglass.png"
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="30"
+                                 Margin="0,0,10,0"
+                                 HorizontalOptions="End">
+                    </ImageButton>
+                    <ImageButton Source="Star.png"
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="30"
+                                 Margin="0,0,10,0"
+                                 Clicked="FavoriteImageButton_Clicked"
+                                 HorizontalOptions="End">
+                    </ImageButton>
+                    <ImageButton Source="Profile.png"
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="30"
+                                 HorizontalOptions="End"
+                                 Clicked="ProfileImageButton_Clicked">
+                    </ImageButton>
+                </StackLayout>
+            </Frame>
+
+            <Grid>
+                <Image Source="M.jpg"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,0,0,10">
+                    
+                </StackLayout>
+                
+
+                <Frame BackgroundColor="Transparent"
+                       HasShadow="True"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       >
+                    <Label TextColor="White">
+                        National Lockdown September 5th
+                    </Label>
+                </Frame>
+                <Button BackgroundColor="Transparent"
+                        Clicked="Button_Clicked"/>
+
+
+            </Grid>
+
+            <ScrollView Margin="0,15">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center">
+                        <Grid>
+                            <Frame HorizontalOptions="Center"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="20"
+                           HasShadow="True">
+                                <StackLayout>
+                                    <Image Source="Min.png"
+                                   WidthRequest="90"/>
+                                    <Label TextColor="SkyBlue"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   Margin="0,-10">
+                                        Ministries
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent"
+                                    Clicked="MinImageButton_Clicked"/>
+                        </Grid>
+
+                        <Grid>
+                            <Frame HorizontalOptions="Center"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="20"
+                           HasShadow="True"
+                           Margin="20,0,0,0">
+                                <StackLayout>
+                                    <Image Source="Emergency"
+                                   WidthRequest="90"/>
+                                    <Label TextColor="DarkRed"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   Margin="0,-10">
+                                        Emergency
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent"
+                                    Clicked="EmeImageButton_Clicked"/>
+                        </Grid>
+
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                                 Margin="0,15">
+                        <Grid>
+                            <Frame HorizontalOptions="Center"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="20"
+                           HasShadow="True">
+                                <StackLayout>
+                                    <Image Source="Coin.png"
+                                   WidthRequest="90"/>
+                                    <Label TextColor="SkyBlue"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   Margin="0,-10">
+                                        Business
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent"
+                                    Clicked="BusImageButton_Clicked"/>
+                        </Grid>
+
+                        <Grid>
+                            <Frame HorizontalOptions="Center"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="20"
+                           HasShadow="True"
+                           Margin="20,0,0,0">
+                                <StackLayout>
+                                    <Image Source="Para"
+                                   WidthRequest="90"/>
+                                    <Label TextColor="SkyBlue"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   Margin="0,-10">
+                                        Parastatal
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent"
+                                    Clicked="ParaImageButton_Clicked"/>
+
+                        </Grid>
+
+                    </StackLayout>
+                </StackLayout>
+
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

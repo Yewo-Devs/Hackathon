@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Views.Onboarding.Names">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F2F2F2">
+            <Label FontSize="Title" 
+               HorizontalOptions="Center" 
+               HorizontalTextAlignment="Center" 
+               Margin="50,100,50,10">
+                Welcome to the One Gov Mobile App!
+            </Label>
+
+            <Label HorizontalOptions="Center">
+                Let us know a little more about you.
+            </Label>
+
+            <Entry Placeholder="First Name" 
+               HorizontalOptions="Center" 
+               WidthRequest="275" 
+                   IsEnabled="False"
+               Margin="0,50,0,10">
+
+            </Entry>
+            <Entry Placeholder="Last Name" 
+               HorizontalOptions="Center" 
+                   IsEnabled="False"
+               WidthRequest="275">
+
+            </Entry>
+
+            <Entry Placeholder="Omang Number" 
+               HorizontalOptions="Center" 
+               WidthRequest="275"
+                   IsEnabled="False"
+                   Margin="0,10">
+
+            </Entry>
+
+            <Button Text="Next"
+                TextColor="White" 
+                BackgroundColor="#9ecefe"
+                    Clicked="Button_Clicked"
+                HorizontalOptions="Center"
+                WidthRequest="275"
+                Margin="0,100"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Views.Favourites"
+             Title="Favourites">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F2F2F2">
+            <ScrollView Margin="0, 115">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center">
+                        <Grid>
+                            <Frame HorizontalOptions="Center"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="20"
+                           HasShadow="True">
+                                <StackLayout>
+                                    <Image Source="pol.png"
+                                   WidthRequest="90"/>
+                                    <Label TextColor="SkyBlue"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   Margin="0,-10">
+                                        Police
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent"/>
+                        </Grid>
+
+                        <Grid>
+                            <Frame HorizontalOptions="Center"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="20"
+                           HasShadow="True"
+                           Margin="20,0,0,0">
+                                <StackLayout>
+                                    <Image Source="Cars"
+                                   WidthRequest="90"/>
+                                    <Label TextColor="SkyBlue"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   Margin="0,-10">
+                                        Transport
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent"/>
+                        </Grid>
+
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

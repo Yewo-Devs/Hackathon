@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Views.Profile">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Image Source="Okavango"/>
+            <Frame CornerRadius="30" 
+                   Margin="0,-50"
+                   HasShadow="True">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Pro" 
+                           WidthRequest="120"
+                           HorizontalOptions="Start"/>
+                        <StackLayout VerticalOptions="Center">
+                            <Label Text="Girlie Chezuba"
+                                   FontSize="Title"/>
+                            <Label Text="Ministry of Health"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="FillAndExpand" 
+                                 HorizontalOptions="FillAndExpand"
+                                 Orientation="Horizontal">
+                        <Button Text="Message Me"
+                TextColor="White" 
+                BackgroundColor="#9ecefe"
+                HorizontalOptions="StartAndExpand"
+                WidthRequest="175"/>
+                        <StackLayout HorizontalOptions="End"
+                                 Margin="0,0,30,0"
+                                 Orientation="Horizontal">
+                            <Image Source="facebook"
+                               WidthRequest="50"/>
+                            <Image Source="linkedin"
+                               WidthRequest="50"/>
+                        </StackLayout>
+                    </StackLayout>
+                    
+                    
+                    <Label>
+                        I lead the In-Country team in implementing a surveillance project to monitor recent HIV infections through inclusion of a test for recent infection (TRI) in routine HIV testing services. In collaboration with the MoH and with funding support from the U.S. Center for Disease Control under PEPFAR, I-TECH is leading the implementation of this nationwide program designed to track recent infections to control the epidemic.
+                    </Label>
+                    <Label FontSize="Title"
+                           FontAttributes="Bold">
+                        Details
+                    </Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Job"
+                               WidthRequest="30"/>
+                        <Label VerticalOptions="Center">
+                            Medical Programme Manager
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="id"
+                               WidthRequest="30"/>
+                        <Label VerticalOptions="Center">
+                            184118920
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="location"
+                               WidthRequest="30"/>
+                        <Label VerticalOptions="Center">
+                            Block 7
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

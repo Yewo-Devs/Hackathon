@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Views.Splash">
+    <ContentPage.Content>
+        <StackLayout x:Name="main">
+            <Grid>
+                <Image Source="SS1.png"
+                       Aspect="AspectFill"
+                       x:Name="image"
+                       >                    
+                </Image>
+                <Frame VerticalOptions="Start"
+                       BackgroundColor="Transparent"
+                       Margin="0, 100"
+                       HasShadow="True"
+                       >
+                    <Label FontSize="50" 
+                           HorizontalOptions="Center"
+                           TextColor="White"
+                           x:Name="label">
+                        Welcome!
+                    </Label>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

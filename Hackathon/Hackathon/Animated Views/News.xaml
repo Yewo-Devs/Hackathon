@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackathon.Animated_Views.News"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation DurationIn="400"
+                                   DurationOut="300"
+                                   EasingIn="SinOut"
+                                   EasingOut="SinIn"
+                                   HasBackgroundAnimation="True"
+                                   PositionIn="Center"
+                                   PositionOut="Center"
+                                   ScaleIn="1.2"
+                                   ScaleOut="0.8" />
+    </pages:PopupPage.Animation>
+    <StackLayout HorizontalOptions="Center"
+                 Margin="50,80,50,80"
+                 BackgroundColor="White"
+                 VerticalOptions="Center">
+        <Image Source="M"/>
+        <Label Text="National Lockdown"
+               FontSize="Title"
+               FontAttributes="Bold"
+               Margin="10,0"/>
+        <ScrollView>
+            <Label Margin="10,10,10,0">
+                Botswana government, alongside the French Embassy and United Nation’s Food and Agriculture Organisation (FAO), launched a multi-million Pula wildlife conservancy project in Habu village this Monday.
+
+Funded to the tune of P26 million and run by the village’s Elephant Development Trust, the scheme includes wildlife conservation, anti-poaching patrols, rangeland surveys, human-wildlife conflict mitigations, herding, and grazing management among many other activities.
+
+Highlighting some of the results of past interventions run by the community trust, the organisation’s founder and coordinator, Mokadi Masedi said, “For the past four or five years, we have not had foot and mouth outbreaks in this area due to the herding and grazing management and range patrols.
+            </Label>
+        </ScrollView>
+        
+    </StackLayout>
+</pages:PopupPage>
