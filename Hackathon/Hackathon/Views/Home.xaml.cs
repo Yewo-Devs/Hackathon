@@ -95,7 +95,7 @@ namespace Hackathon.Views
 
             return load;
         }
-
+        //Comment
         private void Button_Clicked(object sender, EventArgs e)
         {
             PopupNavigation.PushAsync(new News(), true);
